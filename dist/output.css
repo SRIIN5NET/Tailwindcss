@@ -521,12 +521,18 @@ video {
   .container {
     max-width: 640px;
   }
+  .flex {
+    display: grid;
+}
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
   }
+  .flex {
+    display: grid;
+}
 }
 
 @media (min-width: 1024px) {
